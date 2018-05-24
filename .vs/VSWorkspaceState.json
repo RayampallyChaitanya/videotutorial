@@ -1,9 +1,8 @@
 {
   "ExpandedNodes": [
     "",
-    "\\loginpage\\vendor",
-    "\\loginpage\\vendor\\bootstrap"
+    "\\signuppage"
   ],
-  "SelectedNode": "\\loginpage",
+  "SelectedNode": "\\signuppage\\server.php",
   "PreviewInSolutionExplorer": false
 }

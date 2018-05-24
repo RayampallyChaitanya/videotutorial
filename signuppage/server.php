@@ -1,6 +1,15 @@
 <?php
-$email = $_POST['email'];
+$servername = "localhost";
+$username = "root";
+$password = "123sudhakar";
+$db = 'mydb';
 
-echo $email;
+// Create connection
+$conn = new mysqli($servername, $username, $password);
 
+// Check connection
+if ($conn->connect_error) {
+    die("Connection failed: " . $conn->connect_error);
+} 
+echo "Connected successfully";
 ?>
