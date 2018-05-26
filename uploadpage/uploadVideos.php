@@ -2,9 +2,9 @@
 
 error_reporting(1);
 
-$con=mysql_connect("localhost","root","123sudhakar");
+$link = mysqli_connect("127.0.0.1", "root", "123sudhakar", "mydb");
 
-mysql_select_db("mydb",$con);
+// mysql_select_db("mydb",$con);
 
 extract($_POST);
 
@@ -26,7 +26,7 @@ else
 
 $video_path=$_FILES['fileToUpload']['name'];
 
-mysql_query("insert into videos(video_name) values('$video_path')");
+mysqli_query("insert into videos(video_name) values('$video_path')");
 
 move_uploaded_file($_FILES["fileToUpload"]["tmp_name"],$target_file);
 
