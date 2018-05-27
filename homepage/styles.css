@@ -1,0 +1,117 @@
+ body {
+    margin: 0;
+    padding: 0;
+ }
+ 
+ #background 
+{ 
+     left: 0px; 
+     top: 0px; 
+     position: relative; 
+     margin-left: auto; 
+     margin-right: auto; 
+     width: 1366px;
+     height: 768px; 
+     overflow: hidden;
+     z-index:0;
+    } 
+
+ #Rectangle1 
+{ 
+     left: -1px; 
+     top: 0px; 
+     position: absolute; 
+     width: 1368px;
+     height: 84px;
+     z-index:1;
+} 
+
+ #Rectangle2 
+{ 
+     left: -1px; 
+     top: 95px; 
+     position: absolute; 
+     width: 682px;
+     height: 674px;
+     z-index:2;
+} 
+
+ #Rectangle3 
+{ 
+     left: 682px; 
+     top: 89px; 
+     position: absolute; 
+     width: 680px;
+     height: 680px;
+     z-index:3;
+} 
+
+ #Layer2 
+{ 
+     left: 683px; 
+     top: 91px; 
+     position: absolute; 
+     width: 683px;
+     height: 677px;
+     z-index:4;
+} 
+
+ #Layer3 
+{ 
+     left: 0px; 
+     top: 91px; 
+     position: absolute; 
+     width: 680px;
+     height: 677px;
+     z-index:5;
+} 
+
+ #STUDENTLOGIN 
+{ 
+     left: 145px; 
+     top: 348px; 
+     position: absolute; 
+     width: 391px;
+     height: 44px;
+     z-index:6;
+} 
+
+ #FACULTYLOGIN 
+{ 
+     left: 853px; 
+     top: 350px; 
+     position: absolute; 
+     width: 418px;
+     height: 44px;
+     z-index:7;
+} 
+
+ #logo 
+{ 
+     left: 24px; 
+     top: 8px; 
+     position: absolute; 
+     width: 372px;
+     height: 65px;
+     z-index:8;
+} 
+
+ #studentlogin 
+{ 
+     left: 225px; 
+     top: 410px; 
+     position: absolute; 
+     width: 223px;
+     height: 68px;
+     z-index:9;
+} 
+
+ #facultylogin 
+{ 
+     left: 948px; 
+     top: 413px; 
+     position: absolute; 
+     width: 213px;
+     height: 65px;
+     z-index:10;
+} 

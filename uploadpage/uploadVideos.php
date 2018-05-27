@@ -26,7 +26,7 @@ else
 
 $video_path=$_FILES['fileToUpload']['name'];
 
-mysqli_query("insert into videos(video_name) values('$video_path')");
+mysqli_query($link,"insert into videos(video_name) values('$video_path')");
 
 move_uploaded_file($_FILES["fileToUpload"]["tmp_name"],$target_file);
 
@@ -64,7 +64,7 @@ $query=mysql_query("select * from videos");
 
 <Td>Upload  Video</td></tr>
 
-<Tr><td><input type="file" name="fileToUpload"/></td></tr>
+<Tr><td><input type="file" input type="file" name="fileToUpload"/></td></tr>
 
 <tr><td>
 

@@ -1,0 +1,97 @@
+ body {
+    margin: 0;
+    padding: 0;
+ }
+ 
+ #background 
+{ 
+     left: 0px; 
+     top: 0px; 
+     position: relative; 
+     margin-left: auto; 
+     margin-right: auto; 
+     width: 1366px;
+     height: 768px; 
+     overflow: hidden;
+     z-index:0;
+    } 
+
+ #firstrec 
+{ 
+     left: 354px; 
+     top: 183px; 
+     position: absolute; 
+     width: 610px;
+     height: 357px;
+     z-index:1;
+} 
+
+ #cloudrec 
+{ 
+     left: 358px; 
+     top: 186px; 
+     position: absolute; 
+     width: 297px;
+     height: 352px;
+     z-index:2;
+} 
+
+ #cloud 
+{ 
+     left: 421px; 
+     top: 226px; 
+     position: absolute; 
+     width: 167px;
+     height: 136px;
+     z-index:3;
+} 
+
+ #browsefiles 
+{ 
+     left: 355px; 
+     top: 429px; 
+     position: absolute; 
+     width: 299px;
+     height: 109px;
+     z-index:4;
+} 
+
+ #uploadfile 
+{ 
+     left: 736px; 
+     top: 466px; 
+     position: absolute; 
+     width: 149px;
+     height: 36px;
+     z-index:5;
+} 
+
+ #title 
+{ 
+     left: 680px; 
+     top: 302px; 
+     position: absolute; 
+     width: 256px;
+     height: 40px;
+     z-index:6;
+} 
+
+ #select 
+{ 
+     left: 670px; 
+     top: 210px; 
+     position: absolute; 
+     width: 269px;
+     height: 55px;
+     z-index:7;
+} 
+
+ #description 
+{ 
+     left: 673px; 
+     top: 362px; 
+     position: absolute; 
+     width: 273px;
+     height: 89px;
+     z-index:8;
+} 

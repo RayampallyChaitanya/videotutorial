@@ -1,0 +1,92 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <title>UPLOAD PAGE</title>
+        <link href="styles.css" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" type="text/css" href="bootstrap.css">
+    </head>
+    <body>
+        <form method="post" enctype="multipart/form-data" action="uploadVideos.php">
+        <div id="background">
+            <div id="firstrec"><img src="images/firstrec.png"></div>
+            <div id="cloudrec"><img src="images/cloudrec.png"></div>
+            <div id="cloud"><img src="images/cloud.png"></div>
+            <div id="browsefiles">
+
+                <meta name="viewport" content="width=device-width, initial-scale=1">
+                        <style>
+                                .block {
+                                    display: block;
+                                    width: 100%;
+                                    border: none;
+                                    background-color: #4CAF50;
+                                    color: white;
+                                    padding: 14px 28px;
+                                    font-size: 16px;
+                                    cursor: pointer;
+                                    text-align: center;
+                                }
+
+                                .block:hover {
+                                    background-color: #ddd;
+                                    color: black;
+                                }
+                        </style>
+                        
+                        
+                            
+                <button type="button" class="block" id="fakeBrowse" onclick="HandleBrowseClick();">Browse files</button>
+
+                        <script language="JavaScript" type="text/javascript">
+                                function HandleBrowseClick()
+                                {
+                                    var fileinput = document.getElementById("block");
+                                    fileinput.click();
+                                }
+                                function Handlechange()
+                                {
+                                var fileinput = document.getElementById("block");
+                                var textinput = document.getElementById("filename");
+                                textinput.value = fileinput.value;
+                                }
+                        </script>
+
+                <input type="file" id="block" name="fileupload" style="display: none" onChange="Handlechange();"/>
+                        
+                       
+
+
+
+            </div>
+            <div id="uploadfile">
+                <button type="submit" class="btn btn-primary" name="upd">UPLOAD FILES</button></div>
+             
+
+
+            <div id="title">
+                <div class="form-group">
+                        <label class="col-form-label" for="inputDefault">VIDEO NAME</label>
+                        <input type="text" class="form-control" placeholder="title" id="inputDefault">
+                </div>
+            </div>
+            <div id="select">
+                <div class="form-group">
+                        <select class="custom-select">
+                          <option selected="">select subject</option>
+                          <option value="1">biology</option>
+                          <option value="2">maths</option>
+                          <option value="3">physics</option>
+                          <option value="4">chemistry</option>
+                        </select>
+                </div>
+                
+            </div>
+            <div id="description">
+
+                
+            </div>
+        </div>
+        </form>
+ </body>
+ </html>
